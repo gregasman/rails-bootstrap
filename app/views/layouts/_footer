@@ -1,8 +1,0 @@
-<div class="row">
-	<section class="col-sm-4">
-		Copyright &copy; <%= Time.now.year %>
-    </section>
-	<section class="col-sm-8">
-		All rights reserved.
-    </section>
-</div>
