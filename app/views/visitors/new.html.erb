@@ -1,1 +1,7 @@
-<h3>Welcome</h3>
+<% content_for :title do %>Rails Bootstrap<% end %>
+<% content_for :description do %>Rails Bootstrap Example<% end %>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <%= render 'layouts/carousel_items' %>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></a>
+</div>
